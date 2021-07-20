@@ -1,0 +1,846 @@
+.scr {
+  position: relative;
+  overflow-x: hidden;
+}
+* {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.myheader {
+  height: 115px;
+  overflow: hidden;
+  background-color: #1c3463;
+  box-shadow: 0px 10px 10px #4d6dc328;
+}
+
+.myheader + .row {
+  margin: 0;
+}
+.right-side {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+}
+.myheader .logo {
+  margin-top: 35px;
+  margin-left: 60px;
+}
+.myheader .logo img {
+  width: 250px;
+  height: 50px;
+}
+.store-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+.right-logo {
+  margin-top: 20px;
+}
+
+.right-logo img {
+  height: 70px;
+  width: 70px;
+}
+
+.verified-icon img {
+  height: 20px;
+  width: 20px;
+  margin-top: -7px;
+}
+
+.right-text {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+}
+.right-name1 {
+  margin-top: 5px;
+  color: #4cc344;
+  font-weight: bold;
+  font-size: 25px;
+}
+.right-name2 {
+  margin-top: -5px;
+  color: #ffa455e5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+.cardsection h3 {
+  margin-top: 80px;
+  font-size: 24px;
+  color: #1c3463;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.mobile-footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px -5px 15px #4d6dc340;
+}
+
+.cardsection {
+  margin-top: 200px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.full-rate img {
+  height: 40px;
+  width: 40px;
+}
+
+.map {
+  height: 100%;
+  min-height: 400px;
+}
+.first-map {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-card .card {
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: none;
+}
+.mobile-card .card .map-col {
+  padding: 0;
+}
+
+.ratein {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.my-map {
+  width: 100%;
+  height: 300px;
+}
+.details {
+  width: 100%;
+  height: 100%;
+}
+
+.details h4 {
+  color: #4cc344;
+}
+.rating-color {
+  color: #4cc344;
+}
+
+.rate img {
+  height: 30px;
+  width: 30px;
+}
+
+.cardsection .card {
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 3px 20px #4d6dc34c;
+}
+.cardsection .card h4 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #4cc344;
+}
+.cardsection .card p {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.cardsection .card a {
+  height: 55px;
+  width: 240px;
+  background-color: #4cc344;
+}
+
+.my-bt {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-btn {
+  margin: 0;
+  padding: 0;
+  width: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4cc344;
+}
+
+.my-bt img {
+  width: 30px;
+}
+.my-bt-mobile {
+  margin-left: 6px;
+  margin-bottom: 2px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-bt-mobile img {
+  width: 15px;
+  margin-top: -2px;
+}
+.whats-text-mobile {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.whats-text {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.whats-btn {
+  background-color: #4cc344;
+}
+
+.whatsappicon img {
+  height: 35px;
+  width: 35px;
+  background-color: #4cc344;
+}
+
+.whatsapp-btn {
+  padding-top: 30px;
+  margin-left: 15px;
+  color: #ffffff;
+  background-color: #4cc344;
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.head {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffa455e5;
+  margin-bottom: 100px;
+}
+
+.footericon img {
+  margin-left: 0px;
+  margin-top: -10px;
+  margin-right: 20px;
+  height: 35px;
+  width: 35px;
+}
+
+.whatsapp-btn1 {
+  font-size: 25px;
+}
+
+.me-footer {
+  background-color: #1c3463;
+}
+
+.me-footer img {
+  height: 120px;
+  width: 160px;
+}
+
+.me-footer h3 {
+  color: white;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.me-footer p {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #4cc344;
+}
+
+.contact-details {
+  display: flex;
+  padding-right: 40px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.shop-details {
+  padding-left: 40px;
+}
+.my-hr {
+  height: 2px;
+  color: #00268d;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer-mid1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-mid1 img {
+  height: 73px;
+  width: 109px;
+  margin-top: 70px;
+}
+.footer-mid2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.footer-mid2 img {
+  height: 82px;
+  width: 114px;
+  margin-top: 60px;
+}
+.footer-mid3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-mid3 img {
+  height: 89px;
+  width: 89px;
+  margin-top: 55px;
+}
+.footerend {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.footerend p {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.footerend1 p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.footerend2 p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.btn-row {
+  margin-top: -40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-icon img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.contact-details a {
+  height: 55px;
+  width: 230px;
+  background-color: #4cc344;
+}
+.contact-details .my-bt {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-details .my-bt img {
+  width: 30px;
+  height: 30px;
+}
+
+.whatsapp-footer {
+  background-color: #4cc344;
+  height: 55px;
+  width: 220px;
+}
+
+.complete-footer {
+  display: block;
+}
+
+.cardsection {
+  display: block;
+}
+.mobile-card,
+.details {
+  display: none;
+}
+.mobile-footer {
+  display: none;
+}
+
+.clr {
+  color: grey;
+}
+.my-text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.mobile-whatsapp-btn-my {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  margin-top: 30px;
+  height: 40px;
+}
+
+@media (max-width: 992px) and (min-width: 0px) {
+  .mobile-card,
+  .details {
+    display: block;
+  }
+  .complete-footer {
+    display: none;
+  }
+
+  .cardsection {
+    display: none;
+  }
+  .mobile-footer {
+    display: block;
+  }
+  .last {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  * {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .myheader .logo {
+    margin-left: 30px;
+  }
+  .cardsection .card h4 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #4cc344;
+  }
+  .cardsection .card p {
+    font: 10px;
+    letter-spacing: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  .whats-btn {
+    margin-top: 32px;
+  }
+  .mobile-footer {
+    height: 80px;
+  }
+  .my-bt-mobile {
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    width: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 766px) and (min-width: 592px) {
+  .myheader .logo {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .mobile-footer p {
+    font-size: 13px;
+  }
+  .rate img {
+    height: 30px;
+    width: 30px;
+  }
+  .cardsection .card h4 {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #4cc344;
+  }
+  .cardsection .card p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  .detail-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  .detail-text p {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .detail-text .my-p {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  .my-bt-mobile {
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+    width: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 592px) and (min-width: 500px) {
+  * {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .myheader {
+    height: 80px;
+  }
+  .myheader .logo {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .detail-text h4 {
+    font-size: 20px;
+  }
+  .detail-text p {
+    font-size: 13px;
+  }
+
+  .myheader .logo img {
+    margin-top: -5px;
+    width: 170px;
+    height: 50px;
+  }
+  .right-logo {
+    margin-top: 15px;
+    margin-right: -10;
+  }
+  .store-logo {
+    padding-right: 0;
+  }
+  .right-logo img {
+    height: 50px;
+    width: 50px;
+  }
+  .verified-icon img {
+    margin-top: -2px;
+    height: 10px;
+    width: 10px;
+  }
+  .right-name2 {
+    margin-top: -10px;
+  }
+
+  .verified-icon img {
+    margin-top: -1px;
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .right-name1 {
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .right-name2 {
+    margin-top: -8px;
+    color: #ffa455e5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .mobile-footer p {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  .rate img {
+    height: 25px;
+    width: 25px;
+  }
+  .cardsection .card h4 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #4cc344;
+  }
+  .cardsection .card p {
+    font-size: 13px;
+    letter-spacing: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  .mobile-footer {
+    height: 80px;
+  }
+  .my-bt-mobile {
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    width: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+  * {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .myheader {
+    height: 70px;
+  }
+  .myheader .logo {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .myheader .logo img {
+    width: 140px;
+    height: 35px;
+  }
+  .detail-text h4 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .detail-text p {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .store-logo {
+    padding-right: 0;
+  }
+  .right-logo {
+    margin-top: 20px;
+    margin-right: -40px;
+  }
+
+  .right-logo img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .verified-icon img {
+    margin-top: -1px;
+    margin-left: 5px;
+    height: 10px;
+    width: 10px;
+  }
+
+  .right-name1 {
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  .right-name2 {
+    margin-top: -10px;
+    color: #ffa455e5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .whats-btn {
+    margin-top: 40px;
+  }
+
+  .mobile-footer {
+    height: 80px;
+  }
+
+  .mobile-footer p {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+  }
+  .rate img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .star {
+    margin-right: 1px;
+  }
+  .star img {
+    width: 28px;
+    margin-right: 0px;
+  }
+
+  .cardsection .card h4 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #4cc344;
+  }
+  .cardsection .card p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  .my-bt-mobile {
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    width: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 320px) {
+  * {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .myheader {
+    height: 65px;
+  }
+  .myheader .logo {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .detail-text h4 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .detail-text p {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+  }
+  .myheader .logo img {
+    width: 140px;
+    height: 30px;
+  }
+  .store-logo {
+    padding-right: 0;
+  }
+  .right-logo {
+    margin-top: 20px;
+    margin-right: -30px;
+  }
+
+  .right-logo img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .verified-icon img {
+    height: 12px;
+    width: 12px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+
+  .right-name1 {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: -2px;
+    font-family: "Poppins", sans-serif;
+  }
+  .right-name2 {
+    color: #ffa455e5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: -8px;
+    font-weight: 600;
+  }
+  .mobile-footer {
+    height: 65px;
+  }
+  .whats-btn {
+    margin-top: 32px;
+  }
+
+  .mobile-footer p {
+    font-size: 10px;
+    line-height: 1.2;
+    font-family: "Poppins", sans-serif;
+  }
+  .mobile-footer img {
+    height: 20px;
+    width: 20px;
+  }
+  .rate img {
+    height: 18px;
+    width: 18px;
+  }
+
+  .ratein {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+  }
+  .rating-color {
+    font-size: 20px;
+  }
+  .whatsappicon img {
+    margin-top: 0;
+    height: 15px;
+    width: 15px;
+  }
+
+  .star img {
+    height: 22px;
+    width: 22px;
+    margin-right: 1px;
+  }
+  .my-bt-mobile {
+    margin-right: 2px;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whats-text-mobile {
+    font-size: 14px;
+  }
+}
